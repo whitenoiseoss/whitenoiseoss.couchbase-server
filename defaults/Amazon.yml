@@ -1,0 +1,19 @@
+#############################################################################
+#
+# COUCHBASE SERVER ENTERPRISE EDITION
+#
+# A listing of available Couchbase Server Enterprise Edition packages and
+# their metadata for Amazon Linux.
+#
+# Current default installed version is:
+# Couchbase Server Enterprise Edition version 6.0.2
+#
+#############################################################################
+
+# https://packages.couchbase.com/releases/6.0.2/couchbase-server-enterprise-6.0.2-amzn2.x86_64.rpm
+# 9ec94416a463fa80400b1a2504e027978a42a18dad9ef186496160d5d064ee58
+
+couchbase_server_centos_ee_version: 6.0.2
+couchbase_server_centos_ee_package: couchbase-server-enterprise-{{ couchbase_server_centos_ee_version }}-amzn2.x86_64.rpm
+couchbase_server_centos_ee_url: https://packages.couchbase.com/releases/{{ couchbase_server_centos_ee_version }}/{{ couchbase_server_centos_ee_package }}
+couchbase_server_centos_ee_sha256: 9ec94416a463fa80400b1a2504e027978a42a18dad9ef186496160d5d064ee58
